@@ -1,0 +1,54 @@
+*,
+::before,
+::after{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    line-height: 1.6;
+    text-align: center;
+}
+
+.titre-h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container-it{
+    min-height: 95vh;
+    background-image: url(/asssets/header-img.jpg);
+    /* opacity: .50; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+}
+
+
+.it-white{
+    color: #fff;
+    max-width: 65vw;
+    font-size: 1rem;
+}
+
+.title-h2-header{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.para-header{
+    font-size: 2rem;
+}
+
+    
+/* btn */
+.btn-it{
+    color: white;
+    background-color: black;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
